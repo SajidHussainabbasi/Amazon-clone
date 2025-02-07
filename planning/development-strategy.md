@@ -1,55 +1,70 @@
-# Project Name
+# Amazon Clone
 
-<!-- describe your project -->
-
----
+## The Amazon Clone project is a fully responsive e-commerce web application designed to replicate the core functionalities of Amazon
 
 ## Setup
 
-<!-- what code do you need just to open the project? this might include:
-  - boilerplate code (https://brandlitic.com/what-is-boilerplate-code/)
-  - loading program data
-  - rendering the initial user interface
--->
+- create a repo(Amazon-clone) from the
+  template(HackYourFutureBelgium/template-html-css)
+- protect the main branch
+- turn on github pages
+- open discussions about project
 
 ---
 
-<!-- copy this section once for each must-have user story -->
+## Home page
 
-## user story
+### Header
 
-<!-- each issue created from this section will have the `for: user story` label -->
+This feature developed on a branch `amazon-development`
 
-> "as a ... i can ... so that ..."
+#### HTML
 
-<!-- write any extra notes or description -->
+- create a `header`
+- create a `div` with class `logo`
+- create a `navbar` with `nav`
+- create an unordered list with `ul`
+- create a list with `li`
+- create a link by using `a` inside `li`list on navbar under`ul`
+- create a `div` to put inside `input` for Search bar
 
-<!-- describe the tasks to build this user story
-  these will have the `type: logic` label, for example
-  not all projects will have all types of tasks
-  and these are not the only possible types, just some suggestions
--->
+#### CSS
 
-### Logic: user story
+- style `header` with display background color and color and with flex
+- style `navbar` class with background and color
+- style div `container` class `logo`
 
-- a _logic_ task -> this will become one issue
-  - [ ] some checkboxes for this task
-  - [ ] these will be copy-pasted into the issue
+### main
 
-### Interface: user story
+this feature developed on a branch `amazon-development`
 
-- an _interface_ task -> this will become one issue
-  - [ ] some checkboxes for this task
-  - [ ] these will be copy-pasted into the issue
+#### HTML
 
-### Interaction: user story
+- create a section with class `hero`
+- under section hero create heading `h1`
+- create a section class `products`
+- create a `div` inside section class `product` and add `img` of product
+- create a `h2` heading to these products and `p` for prices
 
-- an _interaction_ task -> this will become one issue
-  - [ ] some checkboxes for this task
-  - [ ] these will be copy-pasted into the issue
+#### CSS
 
-### Documentation: user story
+- style the`hero` class with color,width add height.
+- style the section`products` heading with font and color
+- style the `img`under class `products`
+- style the `h1,h2` and `p` prices
 
-- a _documentation_ task -> this will become one issue
-  - [ ] some checkboxes for this task
-  - [ ] these will be copy-pasted into the issue
+### Footer
+
+this feature developed on a branch `amazon-development`
+
+#### HTML
+
+- create a footer with class `footer-container`
+- under the footer `footer-container`create `div` with class `footer-tittle`
+- create `div` with class `social-media-icons`
+- add p class `copy-rights`
+
+#### CSS
+
+- style the class `footer` and `footer-tittle` with flex
+- style the class `social-media-icons` with font ,margin button etc

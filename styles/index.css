@@ -1,1 +1,325 @@
-@import url("./something.css");
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #df7fcc;
+  overflow-x: hidden;
+}
+
+header {
+  background-color: #232f3e;
+  color: white;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .logo {
+  font-size: 1.5em;
+}
+
+input {
+  width: 360px;
+  height: 36px;
+  border-radius: 10px;
+}
+
+button {
+  height: 36px;
+  padding: 5px 10px;
+  font-weight: bold;
+  background-color: #fe69c0;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hero-img {
+  width: 90%;
+  height: 200px;
+}
+
+.hero-img img {
+  width: 100%;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+header nav ul li {
+  margin-left: 20px;
+}
+
+header nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: large;
+}
+
+.hero {
+  background-color: #ed0be5;
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+}
+
+.product {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 20px;
+  text-align: center;
+  width: 200px;
+}
+
+.product img {
+  max-width: 100%;
+  height: auto;
+}
+
+.main-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-item {
+  width: 90%;
+  justify-content: center;
+}
+
+.main-item .main-item-img1 {
+  width: 100%;
+  height: 100%;
+}
+
+.main-item .main-item-img2 {
+  width: 100%;
+  height: 100%;
+}
+
+.main-item .main-item-img3 {
+  width: 100%;
+  height: 100%;
+}
+
+.main-item .main-item-img4 {
+  width: 100%;
+  height: 100%;
+}
+
+.main-item .main-item-img5 {
+  width: 100%;
+  height: 100%;
+}
+
+.main-item .main-item-img6 {
+  width: 100%;
+  height: 100%;
+}
+
+.main-item .main-item-img7 {
+  width: 100%;
+  height: 100%;
+}
+
+.main-item .main-item-img8 {
+  width: 100%;
+  height: 100%;
+}
+
+.main-item .main-item-img9 {
+  width: 100%;
+  height: 100%;
+}
+
+.back {
+  background-color: slategrey;
+  color: white;
+  font-size: 18px;
+  text-align: center;
+  padding: 10px;
+  width: 100%;
+}
+
+footer {
+  background-color: #232f3e;
+  color: white;
+  text-align: center;
+  padding: 10px 20px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer-container {
+  height: 400px;
+  color: white;
+  display: grid;
+  grid-template-columns: 3fr 3fr 3fr 3fr;
+}
+
+.footer-tittle {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: Arial;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.footer-tittle ~ div {
+  margin-bottom: 10px;
+}
+
+.contact {
+  width: 100%;
+  text-align: center;
+}
+
+.footer.social-media-icons {
+  height: 100px;
+  background-color: #0c0c0d;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.social-media-icons ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.social-media-icons ul a {
+  text-decoration: none;
+  color: #ab126e;
+  font-size: 3rem;
+  transition: all 0.5s ease-in-out;
+}
+
+@media (max-width: 600px) {
+  .products {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .product {
+    width: 90%;
+  }
+}
+
+/* 4K screen */
+@media (max-width: 2560px) {
+  .showcase {
+    width: 100%;
+  }
+}
+
+/* Desktop */
+@media (max-width: 1440px) {
+  .showcase {
+    width: 90%;
+  }
+}
+
+/* Laptop */
+@media (max-width: 1024px) {
+  .showcase {
+    width: 80%;
+  }
+}
+
+/* Tablet */
+@media (max-width: 768px) {
+  .showcase {
+    width: 70%;
+  }
+}
+
+/* Mobile L */
+@media (max-width: 425px) {
+  .showcase {
+    width: 65%;
+  }
+}
+
+/* Mobile M */
+@media (max-width: 375px) {
+  .showcase {
+    width: 60%;
+  }
+}
+
+/* Mobile S */
+@media (max-width: 320px) {
+  .showcase {
+    width: 50%;
+  }
+}
+
+/* =========== Mobile first ======== */
+/* Mobile S */
+@media (min-width: 320px) {
+  .showcase {
+    width: 50%;
+  }
+}
+/* Mobile M */
+@media (min-width: 375px) {
+  .showcase {
+    width: 60%;
+  }
+}
+/* Mobile L */
+@media (min-width: 425px) {
+  .showcase {
+    width: 65%;
+  }
+}
+
+/* Tablet */
+@media (min-width: 768px) {
+  .showcase {
+    width: 70%;
+  }
+}
+
+/* Laptop */
+@media (min-width: 1024px) {
+  .showcase {
+    width: 80%;
+  }
+}
+
+/* Desktop */
+@media (min-width: 1440px) {
+  .showcase {
+    width: 90%;
+  }
+}
+
+/* 4K screen */
+@media (min-width: 2560px) {
+  .showcase {
+    width: 100%;
+  }
+}
