@@ -1,30 +1,21 @@
 # Backlog
 
-A collection of user stories you can choose from. Stories inside each priority
-level are not necessarily in order, it's up to your group to decide how they fit
-into your strategy. These are also just suggestion, feel free to change them or
-create your own!
+- As a user I want to see the logo and my address of delivering so I need a left
+  Navbar
+- As a user I want to search through the website so I need a search navbar
+- As a user I want to select a website language, see my Account list, my orders
+  and my basket so I need a tools navbar
+- As a user I want to have access to main navigation so i need a main navbar
+- As a user I want to see pictures of products so I need a main section
+- As a user I want to see all the info about the website, and features,language
+  and country,so I need a footer
 
 ## Must-Haves
 
-> these are necessary for basic usability
-
-- [ ] As a ... I want to ... so that ...
-  - _Given [context] when [a specific action is performed] then [a set of
-    consequences should occur]_
+- N/A
 
 ## Should-Haves
 
-> these will complete the user experience, but are not necessary
-
-- [ ] As a ... I want to ... so that ...
-  - _Given [context] when [a specific action is performed] then [a set of
-    consequences should occur]_
+N/A
 
 ## Could-Haves
-
-> would be really cool ... if there's time
-
-- [ ] As a ... I want to ... so that ...
-  - _Given [context] when [a specific action is performed] then [a set of
-    consequences should occur]_

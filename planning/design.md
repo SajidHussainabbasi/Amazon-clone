@@ -2,16 +2,12 @@
 
 ## Project's design overview
 
-> Give an overview of your project's design
+> The Amazon Clone website will be a modern,professional and
 
-<!-- give an overview of your project's design -->
-<!-- describe the reasoning behind your group's design and wireframe -->
-<!-- include other centralized decisions like fonts, palates, ... -->
-
----
+## functional and designed to showcase our skill,experience and designed to s fully responsive E-commerce web application, providing a seamless shopping experience.
 
 ## Wireframe(s)
 
-> Include your wireframe(s) and link to wireframe
+>
 
-<!-- provide a link to your wireframe documenting on Figma, or wherever it is -->
+![Amazon Clone](./wireframe-design-amazon.png)

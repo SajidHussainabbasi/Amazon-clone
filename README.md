@@ -1,10 +1,11 @@
-# Name of project
+# Amazon clone
 
-> A longer description
+> The Amazon Clone project is a fully responsive e-commerce web application
+> designed to replicate the core functionalities of Amazon.
 
 ## Table of contents
 
-- [Name of project](#name-of-project)
+- [Amazon clone](#amazon-clone)
   - [Table of contents](#table-of-contents)
   - [General info](#general-info)
   - [Screenshots](#screenshots)
