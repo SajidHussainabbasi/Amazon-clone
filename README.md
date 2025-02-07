@@ -27,13 +27,16 @@
 
 ## Screenshots
 
-![Example screenshot](./planning/screenshot.jpg)
+![Example screenshot](./public/amazon-clone1.png)
+![Example screenshot](./public/amazon-clone2.png)
+![Example screenshot](./public/amazon-clone3.png)
+![Example screenshot](./public/amazon-clone-footer.png)
 
 ## Technologies
 
 - Node 14.16.0
 - VSC code
-- JavaScript
+- HTML & CSS
 - ...
 - ...
 
@@ -43,27 +46,11 @@
 
 ## Code Examples
 
-```js
-// the hello world program
-console.log("Hello World");
-```
-
-## Features
-
-List of features ready and Todos for future development
-
--
--
--
-
-To-do list:
-
--
--
+![Example screenshot](./public/amazon-clone-code.png)
 
 ## Status
 
-Project is: _in progress_
+Project has Completed
 
 ## Inspiration
 
@@ -71,7 +58,7 @@ Project by freeCodeCamp.org
 
 ## Contact
 
-By [Name]
+[Sajid Hussain](https://github.com/SajidHussainabbasi)
 
 ## Instructions for use
 
